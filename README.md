@@ -19,11 +19,11 @@ Technologies Used:
 
 1. Clone the Repository
 
-git clone https://github.com/shibam-max/ShibamSamaddarSwapiCacheEngine.git
+   git clone https://github.com/shibam-max/ShibamSamaddarSwapiCacheEngine.git
 
 2. Navigate to the Project Directory
 
-cd ShibamSamaddarSwapiCacheEngine
+   cd ShibamSamaddarSwapiCacheEngine
 
 3. Run the Application 
 
