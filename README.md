@@ -30,33 +30,48 @@ cd ShibamSamaddarSwapiCacheEngine
 Follow the standard Spring Boot run procedure to launch the application.
 
 API Endpoints
+
 Characters
+
 GET /api/characters: Get all characters.
+
 GET /api/characters/{name}: Get character by name.
 
 Films
+
 GET /api/films: Get all films.
+
 GET /api/films/{title}: Get film by title.
 
 Planets
+
 GET /api/planets: Get all planets.
+
 GET /api/planets/{id}: Get planet by ID.
+
 GET /api/planets/name/{name}: Get planet by name.
+
 GET /api/planets/climate/{climate}: Get planets by climate.
 
 Species
 GET /api/species: Get all species.
+
 GET /api/species/{name}: Get species by name.
+
 GET /api/species/lifespan/{lifespan}: Get species by lifespan.
 
 Starships
 GET /api/starships: Get all starships.
+
 GET /api/starships/{name}: Get starship by name.
 
 Vehicles
 GET /api/vehicles: Get all vehicles.
+
 GET /api/vehicles/{name}: Get vehicle by name.
+
 GET /api/vehicles/model/{model}: Get vehicles by model.
+
 GET /api/vehicles/manufacturer/{manufacturer}: Get vehicles by manufacturer.
 
 Testing
