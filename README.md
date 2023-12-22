@@ -18,15 +18,15 @@ Technologies Used:
 5. Caching: Leveraging SwapiCache for optimized data retrieval.
 
 
-1. Clone the Repository
+ Clone the Repository
 
-   git clone https://github.com/shibam-max/ShibamSamaddarSwapiCacheEngine.git
+ git clone https://github.com/shibam-max/ShibamSamaddarSwapiCacheEngine.git
 
-2. Navigate to the Project Directory
+Navigate to the Project Directory
 
-   cd ShibamSamaddarSwapiCacheEngine
+cd ShibamSamaddarSwapiCacheEngine
 
-3. Run the Application 
+Run the Application 
 
 Follow the standard Spring Boot run procedure to launch the application.
 
