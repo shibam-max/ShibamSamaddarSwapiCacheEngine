@@ -78,6 +78,103 @@ Testing
 
 To test these endpoints, utilize tools like Postman to ensure that each endpoint functions as expected.
 
+Test the API Endpoints
+To test the API endpoints, you can use tools like Postman. Below are the steps to test each endpoint:
+
+Characters
+
+Get all characters:
+
+URL: http://localhost:8083/api/characters
+
+Get character by name:
+
+URL: http://localhost:8083/api/characters/{name}
+
+Films
+
+Get all films:
+
+URL: http://localhost:8083/api/films
+
+Get film by title:
+
+URL: http://localhost:8083/api/films/{title}
+
+Planets
+
+Get all planets:
+
+URL: http://localhost:8083/api/planets
+
+Get planet by ID:
+
+URL: http://localhost:8083/api/planets/{id}
+
+Get planet by name:
+
+URL: http://localhost:8083/api/planets/name/{name}
+
+Get planets by climate:
+
+URL: http://localhost:8083/api/planets/climate/{climate}
+
+Species
+
+Get all species:
+
+URL: http://localhost:8083/api/species
+
+Get species by name:
+
+URL: http://localhost:8083/api/species/{name}
+
+Get species by lifespan:
+
+URL: http://localhost:8083/api/species/lifespan/{lifespan}
+
+Starships
+
+Get all starships:
+
+URL: http://localhost:8083/api/starships
+
+Get starship by name:
+
+URL: http://localhost:8083/api/starships/{name}
+
+Vehicles
+
+Get all vehicles:
+
+URL: http://localhost:8083/api/vehicles
+
+Get vehicle by name:
+
+URL: http://localhost:8083/api/vehicles/{name}
+
+Get vehicles by model:
+
+URL: http://localhost:8083/api/vehicles/model/{model}
+
+Get vehicles by manufacturer:
+
+URL: http://localhost:8083/api/vehicles/manufacturer/{manufacturer}
+
+
+
+Steps to Test
+
+Open Postman: Launch the Postman application on your local machine.
+
+Select the HTTP Method: Choose the appropriate HTTP method (typically GET) from the dropdown menu.
+
+Enter the URL: Use the specified URL patterns for each endpoint.
+
+Send the Request: Click the "Send" button in Postman.
+
+Review the Response: Verify the data returned aligns with the expected results for each endpoint.
+
 Caching
 
 The application utilizes the SwapiCache to cache fetched data. This ensures faster retrieval of data without making redundant API calls to SWAPI.
