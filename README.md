@@ -1,15 +1,15 @@
 Swapi Cache Engine
 
-Overview
+Overview:
 
 The Swapi Cache Engine is a Spring Boot application designed to fetch and cache Star Wars data from the SWAPI (Star Wars API). This application uses a caching mechanism to improve performance by reducing redundant API calls.
 
-Features
+Features:
 
 Fetch and cache data for Characters, Films, Planets, Species, Starships, and Vehicles from SWAPI.
 Caching mechanism implemented using SwapiCache for efficient data retrieval.
 
-Technologies Used
+Technologies Used:
 
 1. Java: Core programming language for the backend logic.
 2. Spring Boot: Provides a framework for creating robust, scalable applications.
@@ -29,21 +29,21 @@ cd ShibamSamaddarSwapiCacheEngine
 
 Follow the standard Spring Boot run procedure to launch the application.
 
-API Endpoints
+API Endpoints:
 
-Characters
+Characters:
 
 GET /api/characters: Get all characters.
 
 GET /api/characters/{name}: Get character by name.
 
-Films
+Films:
 
 GET /api/films: Get all films.
 
 GET /api/films/{title}: Get film by title.
 
-Planets
+Planets:
 
 GET /api/planets: Get all planets.
 
@@ -53,19 +53,22 @@ GET /api/planets/name/{name}: Get planet by name.
 
 GET /api/planets/climate/{climate}: Get planets by climate.
 
-Species
+Species:
+
 GET /api/species: Get all species.
 
 GET /api/species/{name}: Get species by name.
 
 GET /api/species/lifespan/{lifespan}: Get species by lifespan.
 
-Starships
+Starships:
+
 GET /api/starships: Get all starships.
 
 GET /api/starships/{name}: Get starship by name.
 
-Vehicles
+Vehicles:
+
 GET /api/vehicles: Get all vehicles.
 
 GET /api/vehicles/{name}: Get vehicle by name.
@@ -74,14 +77,15 @@ GET /api/vehicles/model/{model}: Get vehicles by model.
 
 GET /api/vehicles/manufacturer/{manufacturer}: Get vehicles by manufacturer.
 
-Testing
+Testing:
 
 To test these endpoints, utilize tools like Postman to ensure that each endpoint functions as expected.
 
-Test the API Endpoints
+Test the API Endpoints:
+
 To test the API endpoints, you can use tools like Postman. Below are the steps to test each endpoint:
 
-Characters
+Characters:
 
 Get all characters:
 
@@ -91,7 +95,7 @@ Get character by name:
 
 URL: http://localhost:8083/api/characters/{name}
 
-Films
+Films:
 
 Get all films:
 
@@ -101,7 +105,7 @@ Get film by title:
 
 URL: http://localhost:8083/api/films/{title}
 
-Planets
+Planets:
 
 Get all planets:
 
@@ -119,7 +123,7 @@ Get planets by climate:
 
 URL: http://localhost:8083/api/planets/climate/{climate}
 
-Species
+Species:
 
 Get all species:
 
@@ -133,7 +137,7 @@ Get species by lifespan:
 
 URL: http://localhost:8083/api/species/lifespan/{lifespan}
 
-Starships
+Starships:
 
 Get all starships:
 
@@ -143,7 +147,7 @@ Get starship by name:
 
 URL: http://localhost:8083/api/starships/{name}
 
-Vehicles
+Vehicles:
 
 Get all vehicles:
 
